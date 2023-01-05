@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../WEB3"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

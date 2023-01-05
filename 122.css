@@ -1,0 +1,14 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box1,.box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+.box1{
+    margin-bottom: 50px;
+}
+.box2{
+    margin-top: 40px;
+}
+/* idhar box1 ka margin count hoga only bcz of high value this is margin collapsing when only once count insted of both */

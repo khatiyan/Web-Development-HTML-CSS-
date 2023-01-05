@@ -1,0 +1,10 @@
+/* !important> inline style selector>id>class>element selector */
+h2{
+    color: deeppink;
+}
+.class{
+    color: darkblue;
+}
+#id{
+    color: rgb(144, 197, 194);
+}

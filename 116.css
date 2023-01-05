@@ -1,0 +1,20 @@
+input[type="text"]{
+    /* input tag jiska attribute hai type uski value hai text */
+    color: darkmagenta;
+    background-color: cadetblue;
+}
+a[ href="https://www.flipkart.com/"]{
+    color: gold;
+}
+a[href *="google"]{
+    /* VO SARE LINK JINME GOOGLE HAI  */
+    color: rgb(28, 77, 52);
+}
+/* a[href ^="https"]{
+    /* vo value jinki starting https se hoti hai */
+    /* color: crimson;
+} */ 
+a[href $=".in"]{
+    /* vo value jinke last me .in hai */
+    color: rgba(3, 100, 76, 0.884);
+}

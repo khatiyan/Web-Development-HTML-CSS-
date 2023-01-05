@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(167, 167, 197);
+}
+section.my_articles{
+    background-color: aquamarine;
+}
+h3+p{
+    color: rgb(255, 0, 34);
+     /* // adjacent operator */
+}
+/* *{
+    color: brown;
+} */
+
+header p{
+    /*  //decendent operator  */
+    color: dimgrey;
+}
+li a{
+    color: hotpink;
+}
+
+section.my_articles h3{
+    color: navy;
+}
+
+section.my_articles >h3{
+    color: rgb(15, 112, 47);
+    /* //selector or direct child combinator */
+}
+ul+p{
+    color: darkgoldenrod;
+}

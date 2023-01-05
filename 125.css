@@ -1,0 +1,15 @@
+/* a{
+    border: 4px ridge greenyellow;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+} */
+a{
+    border: 4px ridge greenyellow;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    display: block;
+}

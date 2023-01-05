@@ -1,0 +1,14 @@
+body{
+    font: family #444; ;
+}
+h3,h2{
+    color: burlywood;
+    border: 4px ridge green;
+    display: inline;
+}
+a{
+    color: chocolate;
+    border: 5px solid gold;
+    margin: 40px;
+    display: block;
+}

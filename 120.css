@@ -1,0 +1,24 @@
+h1{
+    border: 4px solid brown;
+    /* border or content ke mid space ko padding: bolte hai */
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; */
+    /* if you wanna give padding at every side you can just do this */
+    padding: 20px;
+    /* or you can give padding in clockwise manner like this */
+    /* padding: 20px 30px 40px 50px; */
+
+    /* you can add margin in same ways outside the border  */
+  /* margin-top: 50px;
+  margin-left: 40px; */
+  /* margin: 40px 30px 40px 20px; */
+  /* if you want to centre a element */
+  width: 400px;
+  margin: 15px auto;
+  /* if you want align text in centre do this  */
+ text-align: center;
+background-color: blueviolet ;
+
+}
