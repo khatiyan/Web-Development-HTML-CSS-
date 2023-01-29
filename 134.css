@@ -1,0 +1,12 @@
+.cool::before{
+    content: hello;
+    color: antiquewhite;
+}
+.cool::after{
+    content: hello;
+    display: block;
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    margin: 3px;
+}

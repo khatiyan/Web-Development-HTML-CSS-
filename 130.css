@@ -1,0 +1,20 @@
+a:link{
+    color: darkgreen;
+}
+a:visited{
+   color: mediumaquamarine;
+}
+a:hover{
+    color: indigo;
+}
+a:active{
+    color: aqua;
+}
+
+input:focus{
+    padding: 5px;
+    border: 3px rebeccapurple ridge;
+}
+input:required{
+    color: darkgreen;
+}

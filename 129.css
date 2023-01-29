@@ -1,0 +1,11 @@
+h2{
+    background-color: aqua;
+    text-align: center;
+}
+a{
+    background-color: rgb(158, 142, 79);
+    text-align: center;
+    width: 500px;
+    display: inline-block;
+    text-decoration-line: none;
+}

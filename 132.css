@@ -1,0 +1,23 @@
+body :not(p){
+    color: blue;
+    /* body ke andar vo sare element jo p nahi hai unka color blue kr diya jaye */
+}
+body :not(.fancy){
+    color: brown;
+}
+
+div:empty{
+    color: darkcyan;
+    border: ridge 4px greenyellow;
+    width: 300px;
+    height: 200px;
+}
+/* :root{
+    color: red;
+    background-color: cadetblue;
+} */
+
+/* html{
+    color: burlywood;
+    background-color: azure;
+} */

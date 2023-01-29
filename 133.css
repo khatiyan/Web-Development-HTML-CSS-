@@ -1,0 +1,14 @@
+/* pseudo element ko double :: se likhte hai  */
+p::first-letter{
+    font-size: 32px;
+}
+p::first-line{
+    font-size: 20px;
+}
+p::selection{
+    /* agar aap p mention nahi kroge starting me toh sabhi element ke sath ye hoga including h1  */
+    color: red;
+    background-color: aquamarine;
+    /* isse select kiya hua part red text aur aqua background ke sath ho jayega */
+}
+

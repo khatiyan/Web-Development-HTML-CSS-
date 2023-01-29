@@ -1,0 +1,21 @@
+hr{
+    width: 800px;
+    margin-left: 0px;
+    border:1px ridge black;
+}
+.box1{
+    width: 800px;
+    background-color: lightcoral;
+    border: 5px ridge green;
+    padding: 30px;
+    margin-bottom: 10px;
+    
+    box-sizing: border-box;
+    /* it allow to stay width 800px of all including border,padding and content o */
+}
+.box2{
+    width: 800px;
+    background-color: rgb(132, 121, 121);
+    border: 5px ridge rgb(0, 109, 128);
+    padding: 30px;
+}

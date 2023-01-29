@@ -1,0 +1,13 @@
+body{
+    color: red;
+}
+.container1{
+    color: aqua;
+}
+body h1{
+    color: green;
+}
+a{
+    text-decoration-line: none;
+}
+/* anchor tag ko :default color milta hai by browser */

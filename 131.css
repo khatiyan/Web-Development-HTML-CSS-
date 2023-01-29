@@ -1,0 +1,38 @@
+/* no space allowed in nth,first,.... and p or ul  */
+p:first-child{
+    color: darkorchid;
+    /* //agar koi p apne parent ka phela child hai to vo purple ho jayega  */
+}
+p:last-child{
+    color: chocolate;
+    /* agar koi p apne parent ka last child hai to vo red hojayega */
+}
+
+p:first-of-type{
+    color: red;
+    /* parent ka phela p red hojayega */
+}
+
+p:last-of-type{
+    color: aquamarine;
+    /* parent ka last p aquamarine hojayega */
+}
+
+/* p :nth-child(2){
+    color: darkorange;
+    agar kisi parent ka 2nd child p hai to dark orange color hojayega
+} */
+
+p:nth-child(2n){
+    color: cornflowerblue;
+  /* 2nd,4th,6th.............. */
+}
+
+p:nth-of-type(2){
+    color: beige;
+    /* parent har 2nd p ka color beige  */
+}
+ul li:nth-of-type(2n){
+    color: darkgray;
+    background-color: darksalmon;
+}
